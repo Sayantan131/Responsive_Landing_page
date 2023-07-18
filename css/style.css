@@ -333,3 +333,106 @@ header .right-side-menu .sub-menu a li:hover {
     background: var(--primary-button-background);
     color: #f0f7ff;
 }
+
+/*-------------------- our 3rd section side css style
+--------------------------------------------------------------- */
+
+.section-third{
+    width: 100%;
+    height: 70rem;
+    background: var(--background-color);
+    padding: 3rem 20rem;
+}
+
+.section-third h2{
+    font-size: 5.4rem;
+    margin-top: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.section-third p{
+    width: 40rem;
+    height: 9rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin: auto;
+}
+
+.section-third .section-third-task{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin-top: 3rem; */
+    grid-column-gap: 4rem;
+}
+
+.section-third .section-third-task .task1,
+.section-third .section-third-task .task2,
+.section-third .section-third-task .task3{
+
+    padding-top: 2rem;
+    /* background-color: cornsilk; */
+    text-align: center;
+    transition: all 0.3s linear;
+    border-radius: 2rem;
+}
+
+
+.section-third .section-third-task .task1 h3,
+.section-third .section-third-task .task2 h3,
+.section-third .section-third-task .task3 h3{
+
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-top: 2rem;
+} 
+
+.section-third .section-third-task .task1 img,
+.section-third .section-third-task .task2 img,
+.section-third .section-third-task .task3 img{
+
+    width: 15rem;
+    height: 15rem;
+    transition: all 0.3s;
+}
+
+.section-third .section-third-task .task1 img,
+.section-third .section-third-task .task2 img{
+
+    height: 16rem;
+}
+
+.section-third .section-third-task .task3{                                    /*  do here somethning*/
+    background: #fff;
+    box-shadow: 0rem 0.4rem 2rem rgba(35,52,53,0.25);
+}
+
+.section-third .section-third-task .task1:hover,
+.section-third .section-third-task .task2:hover{
+    background: #fff;
+    box-shadow: 0rem 0.4rem 2rem rgba(35,52,53,0.25);
+}
+
+
+.section-third .section-third-task .task1:hover> img,
+.section-third .section-third-task .task2:hover> img,
+.section-third .section-third-task .task3:hover> img{
+    transform: rotate(360deg);
+}
+
+/*-------------------- our 4th  section side css style
+--------------------------------------------------------------- */
+
+#section-four .right-side h2{
+    width: 50rem;
+}
+
+#section-four .left-side img{
+    width: 70rem;
+    height: inherit;
+    margin: 0;
+}
+
+/*-------------------- our 5th  section side css style
+--------------------------------------------------------------- */
+
