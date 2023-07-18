@@ -46,98 +46,98 @@ a,
 li,
 button {
     font-family: 'Aoboshi One', serif;
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Varela Round', sans-serif;
-color: var(--primary-color);
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    color: var(--primary-color);
 }
 
-p{
+p {
     font-size: 1.8rem;
     line-height: 150%;
-    font-style:normal;
+    font-style: normal;
     font-weight: normal;
 }
 
-a{
+a {
     text-decoration: none;
     cursor: pointer;
-    }
+}
 
-    li{
-        list-style: none;
+li {
+    list-style: none;
 
-    }
+}
 
-    button{
-        padding: 1rem 3rem;
-        border-radius: 20px;
-        border: none;
-        outline: none;
-        line-height: 3.6rem;
-        text-transform: capitalize;
-        cursor: pointer;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2rem;
-    }
+button {
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+}
 
 
-    /* -----------------------our menu style
+/* -----------------------our menu style
     -------------------------------------------------- */
 
-    header{
-        padding: 0 200px;
-    }
+header {
+    padding: 0 200px;
+}
 
-    header nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        height: 12rem;
-    }
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12rem;
+}
 
-    header nav .left-side-menu{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 50%;
-        /* background-color: #e2efff; */
-    }
+header nav .left-side-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    /* background-color: #e2efff; */
+}
 
-    header nav .left-side-menu a img{
-        width: 13rem;
-        height: 5.5rem;
-    }
+header nav .left-side-menu a img {
+    width: 13rem;
+    height: 5.5rem;
+}
 
-    header nav .left-side-menu .sub-menu{
-        /* height: inherit; */
-        display: flex;
-    }
+header nav .left-side-menu .sub-menu {
+    /* height: inherit; */
+    display: flex;
+}
 
-    header nav .left-side-menu .sub-menu a li{
-       margin-right: 4rem;
-    }
+header nav .left-side-menu .sub-menu a li {
+    margin-right: 4rem;
+}
 
-    header nav .left-side-menu .sub-menu a li{
-        font-size: 2rem;
-        line-height: 3.6rem;
-        text-transform: capitalize;
-        transition: all 0.2s;
-    }
+header nav .left-side-menu .sub-menu a li {
+    font-size: 2rem;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    transition: all 0.2s;
+}
 
-    header nav .left-side-menu .sub-menu a li:hover{
-        color:var(--button-background) ;
-    }
+header nav .left-side-menu .sub-menu a li:hover {
+    color: var(--button-background);
+}
 
-    /* right side menu style */
-header nav .right-side-menu{
+/* right side menu style */
+header nav .right-side-menu {
     width: 50%;
     display: flex;
     justify-content: end;
 }
 
-header nav .right-side-menu .sub-menu{
+header nav .right-side-menu .sub-menu {
     width: 100%;
     height: inherit;
     display: flex;
@@ -157,34 +157,34 @@ header .right-side-menu .sub-menu a {
     z-index: 9;
 }
 
-header .right-side-menu .sub-menu button{
+header .right-side-menu .sub-menu button {
     padding: 0.5rem 2.5rem;
     background-color: var(--button-background);
     position: relative;
     z-index: 9;
 }
 
-header .right-side-menu .sub-menu button:hover{
+header .right-side-menu .sub-menu button:hover {
     background: #2d4c71;
 }
 
-header .right-side-menu .sub-menu a li:hover{
+header .right-side-menu .sub-menu a li:hover {
     color: var(--button-background);
 }
 
 /* ----------------------our 2nd section css Style----------------------- */
 
-.main-hero-section{
+.main-hero-section {
     padding: 0 200px;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10rem 0;
+    margin-bottom: 15rem;
 }
 
-.main-hero-section .her0-left-side{
+.main-hero-section .her0-left-side {
     width: 50%;
     height: 100vh;
     display: flex;
@@ -193,37 +193,37 @@ header .right-side-menu .sub-menu a li:hover{
     flex-direction: column;
 }
 
-.main-hero-section h1{
+.main-hero-section h1 {
     width: 44rem;
-    font-size:5.5rem;
+    font-size: 5.5rem;
     line-height: 7rem;
     margin-bottom: 30px;
     padding-top: 170px;
 }
 
-.main-hero-section p{
+.main-hero-section p {
     margin-bottom: 5rem;
     width: 45rem;
 }
 
-.main-hero-section a img{
+.main-hero-section a img {
     width: 13.5rem;
     height: 4rem;
 }
 
-.main-hero-section .button-group a .appstore{
+.main-hero-section .button-group a .appstore {
     height: 4.3rem;
     margin-bottom: -0.4rem;
 }
 
-.main-hero-section .button-group a:first-child{
+.main-hero-section .button-group a:first-child {
     margin-right: 2.5rem;
 }
 
 
 /* -----------------------------our hero right side css---------
 -------------------------------------------------- */
-.main-hero-section .hero-right-side{
+.main-hero-section .hero-right-side {
     width: 50%;
     height: 100vh;
     background-color: var(--background-color);
@@ -237,7 +237,7 @@ header .right-side-menu .sub-menu a li:hover{
     /* background-size: cover; */
 }
 
-.main-hero-section .hero-right-side img{
+.main-hero-section .hero-right-side img {
     width: 80rem;
     height: 60rem;
     /* padding-right: 100px; */
@@ -245,4 +245,91 @@ header .right-side-menu .sub-menu a li:hover{
     /* margin-top: 43rem; */
     /* background-size: cover; */
     /* margin-left: 43rem; */
+}
+
+
+/*-------------------- our 2nd section left side css style
+--------------------------------------------------------------- */
+
+.commom-section {
+    width: 100%;
+    height: 70rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 9rem;
+    padding: 0 20rem;
+}
+
+.commom-section .left-side {
+    width: inherit;
+    height: inherit;
+}
+
+.commom-section .left-side figure {
+    width: 20rem;
+    height: 65rem;
+    background: #f3f9ff;
+    border-radius: 20px;
+}
+
+.commom-section .left-side img {
+    width: 45rem;
+    height: 60rem;
+    border-radius: 2rem;
+    margin-left: 10rem;
+    margin-top: 2.5rem;
+}
+
+/*-------------------- our 2nd sectionright side css style
+--------------------------------------------------------------- */
+
+.commom-section .right-side {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.commom-section .right-side h2 {
+    width: 40rem;
+    font-style: normal;
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+
+}
+
+.commom-section .right-side p {
+    width: 40.3rem;
+    height: 9rem;
+    text-transform: lowercase;
+    margin-bottom: 3rem;
+}
+
+.commom-section .right-side .common-button {
+    padding: 1rem 3rem;
+    background-color: var(--primary-button-background);
+    margin-right: 2rem;
+    color: #fff;
+}
+
+
+.commom-section .right-side .button:last-child {
+    color: var(--main-color);
+    background-color: transparent;
+}
+
+.commom-section .right-side .common-button:hover {
+    background: #8f2805;
+}
+
+
+.commom-section .right-side .common-button-normal:hover {
+    background: var(--primary-button-background);
+    color: #f0f7ff;
 }
