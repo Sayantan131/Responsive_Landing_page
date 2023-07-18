@@ -82,7 +82,91 @@ a{
     }
 
 
-    /* -----------------------our menu styl
+    /* -----------------------our menu style
     -------------------------------------------------- */
 
-    
+    header{
+        padding: 0 200px;
+    }
+
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 12rem;
+    }
+
+    header nav .left-side-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        /* background-color: #e2efff; */
+    }
+
+    header nav .left-side-menu a img{
+        width: 13rem;
+        height: 5.5rem;
+    }
+
+    header nav .left-side-menu .sub-menu{
+        /* height: inherit; */
+        display: flex;
+    }
+
+    header nav .left-side-menu .sub-menu a li{
+       margin-right: 4rem;
+    }
+
+    header nav .left-side-menu .sub-menu a li{
+        font-size: 2rem;
+        line-height: 3.6rem;
+        text-transform: capitalize;
+        transition: all 0.2s;
+    }
+
+    header nav .left-side-menu .sub-menu a li:hover{
+        color:var(--button-background) ;
+    }
+
+    /* right side menu style */
+header nav .right-side-menu{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+header nav .right-side-menu .sub-menu{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header .right-side-menu .sub-menu a {
+    display: flex;
+    margin-right: 8rem;
+    padding: 0.7rem 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+header .right-side-menu .sub-menu button{
+    padding: 0.5rem 2.5rem;
+    background-color: var(--button-background);
+}
+
+header .right-side-menu .sub-menu button:hover{
+    background: #2d4c71;
+}
+
+header .right-side-menu .sub-menu a li:hover{
+    color: var(--button-background);
+}
+
+/* ----------------------our hero css Style----------------------- */
+
